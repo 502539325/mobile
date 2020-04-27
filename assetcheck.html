@@ -1,0 +1,38 @@
+<!CTYPE html PUBLIC "-//W4C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>智慧校园-奥龙太和</title>
+</head>
+<body style="background-color: #5bc0de;">
+<div class="download-tip" style="display: block;">
+    <p style="font-size: 5em;text-align: center;">智慧校园-奥龙太和</p>
+    <div style="font-size: 3em;">
+        <a href="http://www.demobar.cn:9988/mobile/assetCheck-v3.0.apk">点击下载资产盘点系统</a>
+    </div>
+</div>
+
+<script language="javascript">
+
+  var isWechat = function () { //wechat
+        var wechat = navigator.userAgent.match(/(MicroMessenger)\/([\d\.]+)/i);
+        if (wechat) { //wechat
+            return true;
+        }
+        return false;
+    };
+    var isAndroid = function () {
+        var android = navigator.userAgent.match(/(Android);?[\s\/]+([\d.]+)?/);
+        if (android) {
+            return true;
+        }
+        return false;
+    };
+
+    if (isAndroid()) {
+            window.location = "http://www.demobar.cn:9988/mobile/assetCheck-v3.0.apk";
+    }
+</script>
+</body>
+</html>
